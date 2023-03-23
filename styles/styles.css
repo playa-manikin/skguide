@@ -39,7 +39,7 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-auto-rows: minmax(120px, auto);
+    grid-auto-rows: minmax(100px, max-content);
     gap: 10px;
     padding-bottom: 10px;
 }
